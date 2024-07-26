@@ -1,0 +1,14 @@
+body{
+    padding: 0%;
+    margin: 0%;
+        background-image: url('https://deepdreamgenerator.com/storage/fast_queue/temp_images/4fe6ad6872fd6603309db40474fdad45261f72a6.jpg');
+        background-size: cover;
+}
+form{
+  background-color: darkgreen;
+}
+input{
+  border-radius: 30%;
+}
+
+ 
