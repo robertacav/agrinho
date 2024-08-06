@@ -1,42 +1,26 @@
-  body{
-      background-color: rgb(255, 255, 255);
-      font-family: 'Times New Roman', Times, serif;
-      padding:0%;
-      margin: 0%;
-  }
-  header{
-    background-color: rgb(179, 231, 90);
-    opacity:0 ;
-    padding: 10px;
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    padding:0%;
+    margin: 0%;
+}
+.navbar{
+    background-color: rgb(163, 255, 140);
+    color: white;
+    font-size: medium;
+    position: relative;
     text-decoration: none;
-  }
-  nav{
-    text-decoration: none;
-    height: 100%;
-    width: 0px;
-    background-color: rgb(165, 238, 105);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    overflow:hidden;
-    transition: width 0.3s;
-  }
-  nav a {
-    color:rgb(0, 0, 0);
-    font-size: 20px;
-    display: block;
-    padding: 12px 10px 12px 32px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conteudo:hover{
+    background-color: black;
+    font-size: larger;
+}
+.botão{
+    border-color: rgb(134, 134, 236);
 
-  }
-  nav a:hover{
-    color:green;
-    background-color: rgb(251, 251, 251);
-  }
-  .wpp{
-    text-decoration: none;
-    position: fixed;
-    bottom: 250px;
-    right: 20px;
-    z-index: 1;
-  }
+}
+.botão:hover{
+    background-color: rgb(255, 255, 255);
+}

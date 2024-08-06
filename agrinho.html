@@ -8,31 +8,40 @@
 </head>
 <body>
     <header>
-        <a href="#" class="bnt-abrir" onclick="abrirMenu()">&#9776;Abrir</a>
+        <a href="#">&#9776;Abrir</a>
     </header>
-    <nav id="menu">
-        <a href="#" onclick="fecharMenu()">&times;Fechar</a>
-        <a href="#">jsxu9w</a>
-        <a href="#">sxmwkoim</a>
-        <a href="#">jdcue9hjd</a>
-    </nav>
-    <main id="conteudo">
-        <h1>Conteudo</h1>
-        <p>Conteudo</p>
-        <p>Conteudo</p>
-        <p>Conteudo</p>
-    </main>
-    <a class="wpp"href=https://api.whatsapp.com/send?phone=5541991716821" target="_blank"></a>
-    <img src="imagens/botaowpp" alt="whatsapp" widht="70px" height="70px" title="Quero flara com alguém">
-    <script>
-        function abrirMenu(){
-            document.getElementById("menu").style.width = "250px";
-        }
-        function fecharMenu(){
-            document.getElementById("menu").style.width = "0px";
-            doocument.getElementById("conteudo").style.marginleft = "50px";
-            doocument.getElementById("conteudo").style.marginleft = "0px";
-        }
-    </script>
-</body>
+    <nav class="navbar">
+        <div class="conteudo">
+          <a class="amomeunamorado" href="#">Navbar</a>
+          <button class="botão" type="button">
+          </button>
+          <div class="site1" id="navbar">
+            <ul class="navbar1">
+              <li class="nav-item1">
+                <a href="#">Home</a>
+              </li>
+              <li class="nav-item2">
+                <a href="#">Link</a>
+              </li>
+              <li class="nav-item3">
+                <a href="#">
+                  Dropdown
+                </a>
+                <ul class="navbar2">
+                  <li><a  href="#">Action</a></li>
+                  <li><a  href="#">Another action</a></li>
+                  <li><a  href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item4">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="nãosei">
+              <button class="botão" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 </html>
